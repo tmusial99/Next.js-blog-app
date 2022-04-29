@@ -150,7 +150,7 @@ function UsernameMessage({ username, isValid, loading }) {
   if (loading) {
     return <p>Sprawdzam...</p>;
   } else if (isValid) {
-    return <p className="text-success">Nazwa "{username}" jest dostępna!</p>;
+    return <p className="text-success">{`Nazwa "${username}" jest dostępna!`}</p>;
   } else if (username && !isValid) {
     return <p className="text-danger">Nazwa zajęta!</p>;
   } else {
