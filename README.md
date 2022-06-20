@@ -7,7 +7,7 @@ This is my first project made with Next.js and Google Firebase. From the beginni
 ## What did creating this project teach me?
 - Using TypeScript and what are the benefits of using it
 - Differences between Next.js' CSR, SSR, SSG, ISR, and how to use them
-- Creating all backend stuff with Firebase
+- Creating full backend with Firebase, including authentication, database and storage
 
 ## Used technologies
 - TypeScript
